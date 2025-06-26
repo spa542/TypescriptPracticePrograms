@@ -1,7 +1,7 @@
 # TypescriptPracticePrograms
 Typescript programming practice and demo programs for learning purposes.
 
-## Section 1:
+# Section 1:
 General overview of the typescript course.
 
 Course Resources: [https://github.com/alexhddev/TSCourseResources](https://github.com/alexhddev/TSCourseResources)
@@ -42,6 +42,7 @@ You can configure the compiler using a .tsconfig.json file. (tsc --init)
 
 
 ## Section 2:
-...
+Lots about types!
+Notes are in the files themselves.
 
 
