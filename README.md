@@ -45,6 +45,26 @@ You can configure the compiler using a .tsconfig.json file. (tsc --init)
 Lots about types!
 Notes are in the files themselves.
 
+
 ## Section 3:
 Lots more about types and type features!
+Notes are in the files themselves.
+
+Note that return types of literals in typescript are of type the literal itself.
+
+
+## Section 4:
+Lots about OOP and Classes!
+Notes are in the files themselves.
+Usually more used like a functional language.
+
+TypeScript provides great support for:
+* Classes
+* Abstract Classes
+* Interfaces
+* Access Modifiers
+
+
+## Section 5:
+Lots about TypeScript Generics!
 Notes are in the files themselves.
