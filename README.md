@@ -45,4 +45,6 @@ You can configure the compiler using a .tsconfig.json file. (tsc --init)
 Lots about types!
 Notes are in the files themselves.
 
-
+## Section 3:
+Lots more about types and type features!
+Notes are in the files themselves.
