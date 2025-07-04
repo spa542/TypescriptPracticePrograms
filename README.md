@@ -68,3 +68,14 @@ TypeScript provides great support for:
 ## Section 5:
 Lots about TypeScript Generics!
 Notes are in the files themselves.
+
+Generics are an extra layer of abstraction over regular types.
+They are pretty much parameters for types.
+We need them to recude code duplication and build stronger types.
+They are essential for TypeScript advanced types!
+
+## Section 6:
+Lots about working with types and advanced features!
+Notes are in the files themselves.
+
+Read-only, const, index signatures, conditional types, infer, literal types, mapped types, utility types, etc...
