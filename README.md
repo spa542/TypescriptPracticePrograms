@@ -74,8 +74,22 @@ They are pretty much parameters for types.
 We need them to recude code duplication and build stronger types.
 They are essential for TypeScript advanced types!
 
+
 ## Section 6:
 Lots about working with types and advanced features!
 Notes are in the files themselves.
 
 Read-only, const, index signatures, conditional types, infer, literal types, mapped types, utility types, etc...
+
+Type Challenges: https://github.com/type-challenges/type-challenges
+- Will teach you how to create some very interesting and complex types
+
+
+## Section 7:
+Lots about functions and asynchronous programming. This is more about JS as a whole and not purely about TypeScript.
+Notes are in the files themselves.
+
+Different section: not TypeScript specific
+Asynchronous Programmering - early and often while writing TS
+Async functions and promises
+Function overloading
