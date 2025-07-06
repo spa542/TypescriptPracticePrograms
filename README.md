@@ -93,3 +93,19 @@ Different section: not TypeScript specific
 Asynchronous Programmering - early and often while writing TS
 Async functions and promises
 Function overloading
+
+
+## Section 8:
+Lots about modules and module bundling. Learning the TS ecosystem.
+Notes are in the files themselves.
+
+How code is referenced from one file to another in JS.
+Simple concept - endless problems - backward compatibility (Node)
+Opinion: Understanding modules is more important than understanding advanced type.
+Module bundling - combine all modules into one file
+Add TypeScript now!
+
+Section Structure:
+* JS modules and imports recap
+* TypeScript and NPM
+* Module bundlers (Webpack and Esbuild)
