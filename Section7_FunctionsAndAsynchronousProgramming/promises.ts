@@ -68,4 +68,3 @@ async function parallelCalls() {
 }
 
 parallelCalls()
-

@@ -109,3 +109,18 @@ Section Structure:
 * JS modules and imports recap
 * TypeScript and NPM
 * Module bundlers (Webpack and Esbuild)
+
+Module Bundlers:
+1. .js1 + .js2 + .... = bundle.js
+2. .ts + .css + .... = bundle.js
+3. Advantage: usage in browsers, better performance, easier browser support
+4. With TS, bundlers have double role:
+- First call the TS compiler
+- Merge the generated JS files
+5. Mostly used in frontend apps, also used in backend applications
+
+Module Bundler Examples:
+- webpack
+- vite
+- rollup
+- esbuild

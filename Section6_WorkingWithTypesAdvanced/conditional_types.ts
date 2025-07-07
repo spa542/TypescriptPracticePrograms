@@ -37,5 +37,4 @@ let noSalariesArray: ArrayOfSalaries<string>
 type ToArray<Type> = Type extends any ? Type[] : never;
 type StrArrOrNumArr = ToArray<string | number>;
 const numberArray: StrArrOrNumArr = [1, 2, 3];
-const shouldBeNumber = numberArray[0]
-
+const shouldBeNumber = numberArray[0];

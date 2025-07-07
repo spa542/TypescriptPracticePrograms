@@ -1,0 +1,17 @@
+1. npm init -y
+2. Install dependencies for typescript
+npm i -D typescript @types/node
+3. Install dependencies for webpack
+npm i -D webpack webpack-cli ts-node ts-loader @types/webpack
+4. tsc --init
+5. Create src folder and populate it
+6. Create webpack configuration file: webpack.config.ts with contents
+
+1. Install external dependency
+2. Bundle it for node and browser
+- npm i uuid @types/uuid
+- add uuid to main.ts
+- try to execute the bundle in both node and browser
+- generate 2 webpack configuraitons: node and browser
+- configure 2 build scripts: node and browser
+- run everything to make sure it works
