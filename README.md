@@ -124,3 +124,22 @@ Module Bundler Examples:
 - vite
 - rollup
 - esbuild
+
+Further Reading:
+https://webpack.js.org/configuration/
+https://esbuild.github.io/
+
+
+## Section 9:
+Lots about tuning the TypeScript compiler!
+Notes are in the files themselves.
+
+ts -> tsc -> js
+You learn most of the compiler options from experience.
+However, some options are more often used and more important than others.
+
+- Include and exclude
+- Target and lib
+- Strict checks
+- Source maps
+- CLI options

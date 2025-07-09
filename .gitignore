@@ -2,3 +2,4 @@
 node_modules
 .vscode
 .DS_Store
+# Normally want to exclude the dist folder. Note for later...
