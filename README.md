@@ -143,3 +143,23 @@ However, some options are more often used and more important than others.
 - Strict checks
 - Source maps
 - CLI options
+
+It is important to understand that the target key in the tsconfig.json defines the target runtime environment and will identify what JS/TS features are valid and what are not.
+Lib is generally automatically generated based on the target, however, we can provide different specifications to support multiple versions of JS/TS.
+
+The source map links the generated JS code to the original TS code. This allows you to debug the original TS code in the browser.
+
+Starting points for tsconfig.json: https://github.com/tsconfig/bases/tree/main/bases
+
+
+## Section 10:
+Lots about creating npm packages with TypeScript!
+Notes are in the files themselves.
+
+- Create an NPM package with TypeScript
+- Observe the steps and tips
+- Use the new package in another project
+- Observe particularities
+
+Very important to understand how npm works and how TypeScript types work in npm.
+Steps are similar for YARN/PNPM.
