@@ -1,0 +1,15 @@
+{
+  "name": "simple-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "concise-logger": "file:../concise-logger-1.0.0.tgz"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

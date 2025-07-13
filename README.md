@@ -163,3 +163,28 @@ Notes are in the files themselves.
 
 Very important to understand how npm works and how TypeScript types work in npm.
 Steps are similar for YARN/PNPM.
+
+NPM Further Reading: https://www.npmjs.com/package/npm
+
+
+## Section 11:
+Lots about TypeScript decorators!
+Notes are in the files themselves.
+
+Decorators - mechanism for adding metadata information to our source code
+- Resemble other languages meta programming: Java annotations, C# attributes, Python decorators
+- Used to add something to existing logic - popular choice for libraries - use more than create
+- Can be attached to classes and class members - not for functional programming
+
+Where to use? Where you want to easily add reusable logic to existing code.
+
+History in TS:
+- Until TypeScript 5 - experimental - enable flag in order to use - stage 2
+- TypeScript 5 - stage 3 JS decorators
+- Stages 2 and 3 are very different
+Will see both version implementations in this section.
+
+Overview:
+- JS prototypes
+- Stage 2 - old way of using decorators
+- Stage 3 - new way of using decorators

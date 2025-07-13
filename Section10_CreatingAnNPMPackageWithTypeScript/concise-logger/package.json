@@ -1,0 +1,21 @@
+{
+  "name": "concise-logger",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.0.13",
+    "@types/uuid": "^10.0.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "uuid": "^11.1.0"
+  }
+}
