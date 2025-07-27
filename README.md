@@ -188,3 +188,35 @@ Overview:
 - JS prototypes
 - Stage 2 - old way of using decorators
 - Stage 3 - new way of using decorators
+
+TS 5 Decorators (Stage 3):
+Wrapper functions that can be attached to:
+* Classes
+* Class fields
+* Class accessors (auto accessors)
+* Class methods (public and private)
+
+Observation: Function parameters are not supported anymore (problem with libraries that use them (NextJS))
+
+Different structure and stronger types for decorators.
+
+Further Reading:
+- https://github.com/tc39/proposal-decorators
+- https://devblogs.microsoft.com/typescript/announcing-typescript-5-0/#decorators
+- https://github.com/microsoft/TypeScript/issues?q=is%3Aissue+decorator
+
+
+## Section 12:
+Lots about backend practice!
+Notes are in the files themselves.
+
+- Express 5 setup with TypeScript and Nodemon
+- Express feature: Routing
+- Express feature: Middleware
+- Database solution: in memory database
+- Zod - dynamic data validate
+- Solution for dependency share
+
+Important Requirements
+- Basic http concepts
+- Able to use a rest client

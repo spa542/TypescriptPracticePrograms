@@ -25,6 +25,6 @@ function logDecoratorInternals2(target: Object, propertyKey: string, descriptor:
     descriptor.value = function(...args: any[]) {
         console.log('what is this???')
         console.log(this)
-       originalMethod.apply(this, args) 
+        originalMethod.apply(this, args) 
     }
 }
