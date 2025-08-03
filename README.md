@@ -220,3 +220,29 @@ Notes are in the files themselves.
 Important Requirements
 - Basic http concepts
 - Able to use a rest client
+
+
+## Section 13:
+Lots about frontend practice!
+Notes are in the files themselves.
+
+- Initialize a React with TS project
+- Recap about components, state, and props
+- Get familiar with the React types
+- Render lists
+- Hanlde dynamic data
+- Connect to a backend and fix CORS issues
+
+Requirements:
+- Basic React knowledge
+
+React under the hood:
+* Properties
+* State
+
+The component is rendered on any props or state change, it "reacts"
+
+Parent/Child Components:
+* A parent can have multiple child components
+* A parent can inject it's state/props to child components
+* Parent rerender triggers rerender of all child components

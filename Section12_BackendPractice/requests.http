@@ -6,7 +6,9 @@ GET {{url}}/employees
 ###
 PUT {{url}}/employees
 ###
-GET {{url}}/employees/123
+GET {{url}}/reports/salaries
+###
+GET {{url}}/employees/a27b8f93c36ceb98562e
 ###
 POST {{url}}/employees
 Content-Type: application/json
@@ -14,6 +16,15 @@ Content-Type: application/json
 {
     "name": "John",
     "position": "Manager",
+    "salary": 50000
+}
+###
+POST {{url}}/employees
+Content-Type: application/json
+
+{
+    "name": "John",
+    "position": "Managerzzzzz",
     "salary": 50000,
     "other": "stuff"
 }
