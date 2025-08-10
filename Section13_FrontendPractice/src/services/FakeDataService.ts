@@ -1,6 +1,11 @@
 import type { Employee } from "../model/Employee.model";
 
 
+export async function createEmployee(empl: Employee) {
+    return empl.name + '123' 
+}
+
+
 export async function getEmployees(): Promise<Employee[]> {
     return [
         {

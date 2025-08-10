@@ -1,0 +1,23 @@
+{
+  "name": "typescript-practice-programs",
+  "version": "1.0.0",
+  "description": "TypeScript practice programs",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx watch Section1_GettingStarted/first.ts",
+    "eslint": "eslint ."
+  },
+  "keywords": [
+    "typescript",
+    "practice"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "eslint": "^9.33.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.3.0",
+    "typescript-eslint": "^8.39.0"
+  }
+}

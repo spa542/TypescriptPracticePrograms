@@ -246,3 +246,41 @@ Parent/Child Components:
 * A parent can have multiple child components
 * A parent can inject it's state/props to child components
 * Parent rerender triggers rerender of all child components
+
+
+## Seciton 14:
+Lots about VScode tools.
+Notes are in the files themselves.
+
+- Debugging: setup and tips
+- Linting
+- Code navigation and refactoring
+
+### Debugging
+Need to open the root of the folder (where package.json and tsconfig.json are located) in order to debug.
+
+- Open debugger on left panel
+- Setup breakpoints
+- Run and debug
+- Build your own launch.json file
+
+### Linting
+Used for formatting code and enforcing common formatting.
+
+- npx eslint --init
+- Install eslint and associated packages
+- Run through options for specific project
+- Configure the comment as per project requirements
+
+### Code Navigation and Refactoring
+Used for navigating code and refactoring code.
+
+- Control click to the function implementation
+- VSCode will automatically update imports and exports as well as reformatting different file types
+- View the various vscode terminals to see other outputs and errors
+
+Other Resources:
+- https://code.visualstudio.com/docs/languages/typescript
+- https://www.jetbrains.com/help/idea/typescript-support.html
+- https://www.jetbrains.com/help/idea/running-and-debugging-typescript.html
+- https://typescript-eslint.io/
